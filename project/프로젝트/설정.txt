@@ -1,0 +1,4 @@
+윈도우 + R -> regedit 설정 필요
+https://developerking.tistory.com/71
+game폴더->exe파일 넣기
+calcu폴더->계산기 위치 넣기

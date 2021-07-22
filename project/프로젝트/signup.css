@@ -28,12 +28,13 @@
 
 .atr{
     display:block;
+    color:white;
     padding: 10px 10px 10px 10px;
     text-align: center;
     border: 5px solid yellowgreen;
 }
 
 body{
-    background: lightgray center no-repeat;
+    background: url("galaxy.jpg") center no-repeat;
     background-size: cover;
 }
