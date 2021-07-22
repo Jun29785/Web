@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #yy{
+            width:60px;
+            height:20px;
+        }
+        #mm{
+            width:40px;
+            height:25px;
+        }
+        #dd{
+            width:60px;
+            height:20px;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" action="main.html">
+        <h4>이름</h4><input type="text" name="name">
+        <h4>생년월일</h4>
+        <input type="text" id="yy" placeholder="년(4자)">
+        <select id="mm" class="sel" aria-label="월">
+                <option value>월</option>
+                <option value="01"> 1 </option>
+                <option value="02"> 2 </option>
+                <option value="03"> 3 </option>
+                <option value="04"> 4 </option>
+                <option value="05"> 5 </option>
+                <option value="06"> 6 </option>
+                <option value="07"> 7 </option>
+                <option value="08"> 8 </option>
+                <option value="09"> 9 </option>
+                <option value="10"> 10 </option>
+                <option value="11"> 11 </option>
+                <option value="12"> 12 </option>
+        </select>
+        <input type="text" id="dd" placeholder="일" class="int" maxlength="2">
+        
+    </form>
+</body>
+</html>

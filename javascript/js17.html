@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내장 Array
+        
+    </title>
+</head>
+<body>
+    <script>
+        var nums =[1,2,3];
+
+        var ret1 = nums.push(4,5);
+        document.write("length: "+ret1," | 배열: "+nums);
+        document.write("<br>");
+        var ret2 = nums.unshift(0);
+        document.write("length:",ret2," | 배열 : ",nums);
+        document.write("<br>");
+
+        var chars =["a","b","c","d"];
+
+        var popped1 = chars.pop();
+        document.write("꺼낸 요소: ", popped1, " | 배열: ", chars);
+        document.write("<br>");
+
+        var popped2 = chars.shift();
+        document.write("꺼낸 요소: ",popped2," | 배열: ",chars);
+        document.write("<br>");
+
+        var numbers =[1,2,3,4,5];
+        var newNumbers = numbers.splice(2);
+        document.write("반환된 배열: ",newNumbers,"<br>");x
+        document.write("변경된 배열: ", numbers,"<br>");
+
+        var study = ["html", "css", "web", "jquery"];
+        var newStudy = study.splice(2,1);
+        document.write("반환된 배열: ",newStudy,"<br>");
+        document.write("변경된 배열: ", study,"<br>");
+
+        var newStudy2 = study.splice(2,1,"js");
+        document.write("반환된 배열: ",newStudy2,"<br>");
+        document.write("변경된 배열: ", study,"<br>");
+
+        var colors=["red", "green","blue","white","black"];
+        var colors2 = colors.slice(2);
+        document.write(colors2,"<br>");
+
+        var colors3 = colors.slice(2,4);
+        document.write(colors3,"<br>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구구단 예제 1</title>
+    <style>
+        *{
+            text-align: center;
+            font-weight: bold;
+        }
+        div{
+            display: block;
+            padding: 0 20px 30px 50px;
+            margin: 20px;
+            border: 10px dotted #abf;
+            line-height: 4;
+        }
+    </style>
+</head>
+<body>
+    <h1>구구단</h1>
+    <script>
+        var dan = parseInt(prompt("몇단을 출력하시겠습니까?"));
+        var i;
+        document.write("<div>");
+        document.write("<h3>"+dan+"단</h3>");
+        for (i=1;i<10;i++){
+            document.write(dan+" X "+i+" = "+(dan*i)+"<br>");
+        }
+        document.write("</div>");
+    </script>
+</body>
+</html>

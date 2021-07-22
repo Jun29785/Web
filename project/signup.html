@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <p><h1 id="title">회원가입</h1></p><br>
+    <div id="for">
+        <form method="POST" action="login.html">
+            <div class="atr">
+            <h2>이름</h2><input type="text" name="name">
+            </div><br>
+            <div id="yymmdd" class="atr">
+            <h2>생년월일</h2>
+            <input type="text" id="yy" placeholder="년(4자)" maxlength="4">
+            <select id="mm" class="sel" aria-label="월">
+                <option value>월</option>
+                <option value="01"> 1 </option>
+                <option value="02"> 2 </option>
+                <option value="03"> 3 </option>
+                <option value="04"> 4 </option>
+                <option value="05"> 5 </option>
+                <option value="06"> 6 </option>
+                <option value="07"> 7 </option>
+                <option value="08"> 8 </option>
+                <option value="09"> 9 </option>
+                <option value="10"> 10 </option>
+                <option value="11"> 11 </option>
+                <option value="12"> 12 </option>
+            </select>
+            <input type="text" id="dd" placeholder="일" class="int" maxlength="2">
+            </div><br>
+            <div class="atr">
+            <h2>아이디</h2>
+            <input type="text" id="id" placeholder="아이디" maxlength="12">
+            <h2>비밀번호</h2>
+            <input type="password" id="pw" placeholder="비밀번호" maxlength="15"><br>
+            </div><br>
+            <button type="submit" id="btn">회원가입</button>
+        </form>
+    </div>
+</body>
+
+</html>
