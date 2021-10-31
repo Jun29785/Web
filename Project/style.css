@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Jalnan";
+    src: url("../Project/Jalnan.ttf");
+}
+
+.dod-logo{
+    width: 25%;
+    /* margin-top: 4px; */
+}
+
+.bd-logo{
+    margin-left: 20px;
+    width: 80%;
+}
+
+.py-logo{
+    width: 80%;
+    margin-left: 20px;
+}
+
+#texttitle{
+    font-family: "Jalnan";
+    color: white;
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size: 48px;
+}
+.google-img{
+    width: 25%;
+    height: 25%;
+    margin-top: 5px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-family: "Jalnan";;
+}
+
+#font{
+    font-family: "Jalnan";
+}
+
+.main-nav a{
+    text-decoration-line: none;
+}
+.main-nav a:link{
+    color: rgb(255,207,97);
+}
+.main-nav a:visited{
+    color: rgb(255,207,97);
+}
+.main-nav a:hover{
+    color: rgb(231,143,4);
+}
+.main-nav a:active{
+    color: rgb(231,143,4);
+}
+.main-nav {
+    font-family: "Jalnan";
+    margin-top:25%;
+    margin-left: 0%;    
+    display: flex;
+    font-size: 1.25rem;
+    list-style:none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.main-nav li{
+    padding: 10px;
+}
+
+#dod-bg{
+    height: 380px;
+    background-position-y: bottom;
+    background-image: url(../Project/Image/longtree.png);
+    background-size: cover;
+}
+
+#bd-bg{
+    height: 380px;
+    background-position-y: 50%;
+    background-image: url(../Project/Image/bdbg.jpg);
+    background-size: 400px;
+}
+
+#py-bg{
+    height: 380px;
+    background-position-y: 30%;
+    background-image: url(../Project/Image/pybg.jpg);
+    background-size: 280px;
+}
+
+#mg-bg{
+    height: 380px;
+    background-color:rgb(119, 245, 245);
+
+}
+
+#hd{
+    background-color : rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.article-bg{
+    background-color: rgb(230,198,183);
+}
+
+#google{
+    margin: 0;
+}
+
+.footer-bg{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+footer {
+    background-color: rgb(129,96,79);
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    font-family: "Jalnan";
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+#jang{
+    font-size: 28px;
+    text-align: center;
+    padding: 16px;
+    margin: 0;
+}
+
+#number_game_position{
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid rgb(221, 151, 118);
+}
+
+.text_font{
+    font-family: "Jalnan";
+}
+
